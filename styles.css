@@ -1,0 +1,151 @@
+:root {
+    --background-color1: rgba(34, 30, 30, 0.928); 
+    --text-color: white;
+    --background-color2: #80808068;
+}
+* {
+    margin: 0;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--background-color1);
+    text-align: center;
+}
+
+.country-grp .dropdown {
+    display: flex;
+    background-color: grey;
+    height: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70px;
+    border-radius: 10px;
+    padding: 2px 10px;
+    align-content: right;
+    margin-left: auto;
+    border: 20px;
+   
+}
+
+.spot {
+    font-size: 80px;
+    padding: 0 12px;
+}
+.spotify {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.reg {
+    font-size: 20px;
+    color: black;
+    margin-top: -40px; 
+    padding: 0 8px;
+}
+.sire {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color2);
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 40px auto 20px;
+    padding: 5px 10px;
+}
+#form1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#form2{
+    display: none;
+}
+
+.nav-button {
+    padding: 10px 15%;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: var(--text-color);
+}
+.input-design {
+    background-color: var(--background-color2);
+    color: var(--text-color);
+    border-radius: 10px;
+    width: 400px;
+    height: 60px;
+    margin: auto;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.eye {
+    color: white;
+    margin-left: -40px;
+}
+.remind {
+    display: flex;
+    width: 400px;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 300;
+}
+#checkbox {
+    display: flex;
+    padding-right: 90px;
+}
+.sign-in {
+    width: 400px;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+    background-color: var(--background-color2);
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#or {
+    font-size: 20px;
+    font-weight: 800;
+}
+.icons {
+    display: flex;
+    width: 400px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 70px;
+    margin-top: 40px;
+} 
+.hover-color:hover {
+    background-color: rgb(86, 242, 14);
+}
+input[type=password]:focus, input[type=text]:focus, input[type=email]:focus {
+    outline: none !important;
+    border: 3px solid rgb(86, 242, 14);
+}
+
+.question {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    margin: auto;
+    width: 400px;
+    height: 40px;
+}
+
